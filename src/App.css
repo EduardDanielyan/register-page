@@ -32,7 +32,78 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+  position: fixed;
+  z-index: 999;
+  /* width: 100%; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+}
+
+.main{
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+}
+
+.home {
+  width: 100%;
+  text-align: center;
+  width: 100%;
+  height: 900px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+  background-image: url('https://wallpapercave.com/wp/wp4876114.jpg');
+}
+
+.homeH1 {
+  color: aliceblue;
+  margin-top: 50px;
+  font-size: 80px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.registration {
+  font-family: cursive;
+  height: 900px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+  background-image: url(https://www.atelier-brueckner.com/sites/default/files/styles/width-1440/public/gallery/11_bmw_museum_exponatpraesentation.jpg?itok=9YUDlqeY);
+}
+
+
+.regMenu{
+  margin-top: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.login{
+  font-family: cursive;
+  height: 900px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+  background-image: url(https://cdn.bmwblog.com/wp-content/uploads/2021/01/2021_bmw_m5_cs_engine_01.jpg);
+}
+
+.workshop{
+  font-family: cursive;
+  height: 900px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+  background-image: url(https://mediapool.bmwgroup.com/cache/P9/201802/P90294613/P90294613-workshop-at-the-bmw-group-classic-munich-02-2018-2002px.jpg);
 }
